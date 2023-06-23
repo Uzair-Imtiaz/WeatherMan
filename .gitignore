@@ -1,0 +1,46 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# macOS specific files
+.DS_Store
+
+# IDE files (specific to PyCharm, VS Code, and Sublime Text)
+.idea/
+.vscode/
+.sublime/
+
+# Log files
+*.log
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+lib/
+libs/
+vendor/
+node_modules/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Ignore the `dist` directory if applicable
+/dist/
+
+# Ignore the `build` directory if applicable
+/build/
+
+# Ignore any sensitive or environment-specific files
+secret.txt
+config.ini
+credentials.json
